@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalar Whitelist Escolar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            max-width: 600px;
+            width: 100%;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 32px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        
+        .btn-install {
+            display: inline-block;
+            padding: 18px 50px;
+            background: #0060df;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 96, 223, 0.4);
+        }
+        
+        .btn-install:hover {
+            background: #003eaa;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 96, 223, 0.6);
+        }
+        
+        .steps {
+            margin-top: 50px;
+            text-align: left;
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        
+        .steps h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        
+        .step {
+            display: flex;
+            align-items: start;
+            margin-bottom: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+        }
+        
+        .step-number {
+            background: #667eea;
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+            margin-right: 15px;
+        }
+        
+        .step-text {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        
+        .warning {
+            margin-top: 30px;
+            padding: 20px;
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            border-radius: 5px;
+            text-align: left;
+        }
+        
+        .warning strong {
+            color: #856404;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .warning p {
+            color: #856404;
+            margin: 0;
+            font-size: 14px;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #eee;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🔒</div>
+        <h1>Whitelist Escolar</h1>
+        <p class="subtitle">Sistema de Controle de Acesso Web</p>
+        
+        <a href="https://addons.mozilla.org/pt-BR/firefox/addon/52a36b4315a54ecca2d9/" 
+           class="btn-install"
+           target="_blank">
+            📥 Instalar Extensão
+        </a>
+        
+        <div class="steps">
+            <h2>📋 Como Instalar:</h2>
+            
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-text">
+                    Clique no botão azul <strong>"Instalar Extensão"</strong> acima
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-text">
+                    Você será redirecionado para a página oficial da Mozilla Firefox
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-text">
+                    Clique em <strong>"Adicionar ao Firefox"</strong>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-text">
+                    Confirme clicando em <strong>"Adicionar"</strong> quando aparecer o aviso
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">5</div>
+                <div class="step-text">
+                    Pronto! A extensão está instalada e funcionando 🎉
+                </div>
+            </div>
+        </div>
+        
+        <div class="warning">
+            <strong>⚠️ Atenção:</strong>
+            <p>Esta extensão controla o acesso à internet neste computador. Apenas sites autorizados pelo laboratório estarão disponíveis.</p>
+        </div>
+        
+        <div class="footer">
+            <p>Em caso de dúvidas, procure o professor ou administrador do laboratório.</p>
+            <p style="margin-top: 10px;">Extensão oficial aprovada pela Mozilla Foundation</p>
+        </div>
+    </div>
+</body>
+</html>
